@@ -1,2 +1,1 @@
-# stdhwprj.github.io
-The Homepage
+visit http://stdhwprj.github.io
