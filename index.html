@@ -22,8 +22,9 @@
 </head>
 <body style="background-color: #ccc">
 	<script>
-	if(location.href.indexOf('s=') == -1){
-		location.href = "/?s="+Math.random();
+		var dt = Math.floor(Date.now()/60000);
+	if(location.href.indexOf('s='+dt) == -1){
+		location.href = "/?s="+dt;
 	}
 	</script>
 	<div class="container">
